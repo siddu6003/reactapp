@@ -19,7 +19,13 @@ ReactDOM.render(
     <Card name="baludu" branch="ECE" special="Deloitee"/>
     <Card name="macha" branch="CSE" special="Fiserv,Virtusa"/>
     <Card name="labbe" branch="ECE" special="CapGemini"/>
+    <Card name="laagava" branch="ECE" special="CapGemini"/>
     <Card name="panda" branch="ECE" special="Cognizant"/>
+    <Card name="jaya" branch="ECE" special="Cognizant"/>
+    <Card name="auto" branch="ECE" special="Cognizant"/>
+    <Card name="Gontla" branch="ECE" special="Cognizant"/>
+    <Card name="Sharma" branch="ECE" special="TCS"/>
+
     </div>
   </React.StrictMode>,
   document.getElementById('root')
