@@ -1,25 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import List from './List';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const name='siddu';
+const num=numbergen();
+
+
+const styling = {
+  color: 'blue',
+  fontSize:'20px',
+  border:"1px solid black",
 }
+function numbergen() {
+  return Math.floor(Math.random()*1000);
+}
+function App() {
+return (<List />)
+    
+}
+
 
 export default App;

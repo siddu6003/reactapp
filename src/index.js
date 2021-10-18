@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import foot from './foot';
+import List from './List';
+import Nav from './Nav';
+import P1 from './P1';
+import Header from './Header';
+import Footer from './Footer';
+import Note from './Note';
+import Card from './Card';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+    <Header />
+    <Card name="baludu" branch="ECE" special="Deloitee"/>
+    <Card name="macha" branch="CSE" special="Fiserv,Virtusa"/>
+    <Card name="labbe" branch="ECE" special="CapGemini"/>
+    <Card name="panda" branch="ECE" special="Cognizant"/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
