@@ -1,5 +1,6 @@
 const styling={
-  marginLeft: "48%"
+  marginLeft: "48%",
+  color: "white",
 }
 
 function Footer(){
