@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import List from './List';
+import React from 'react';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
-const name='siddu';
-const num=numbergen();
+const App = () => (
+  <div>
+    <AmplifySignOut />
+    My App
+  </div>
+);
 
-
-const styling = {
-  color: 'blue',
-  fontSize:'20px',
-  border:"1px solid black",
-}
-function numbergen() {
-  return Math.floor(Math.random()*1000);
-}
-function App() {
-return (<List />)
-    
-}
-
-
-export default App;
+export default withAuthenticator(App);

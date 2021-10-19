@@ -12,9 +12,14 @@ import Footer from './Footer';
 import Note from './Note';
 import Card from './Card';
 
+import Amplify, { Auth } from 'aws-amplify';
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
+
 ReactDOM.render(
   <React.StrictMode>
     <div>
+      <App />
     <Header />
     <Card name="baludu" branch="ECE" special="Deloitee"/>
     <Card name="macha" branch="CSE" special="Fiserv,Virtusa"/>
