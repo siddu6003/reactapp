@@ -1,5 +1,6 @@
 const styling={
   position: "-webkit-sticky",
+  maxwidth: "100%",
     display:"flex",
     height: "100px",
     backgroundColor:"orange",

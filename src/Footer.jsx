@@ -1,11 +1,5 @@
 const styling={
-    display:"flex",
-    position: 'absolute',
-    textAlign: 'center',
-    bottom: '0',
-    justifyContent: 'center',
-    width:"100%",
-    alignItems: 'center'
+  marginLeft: "48%"
 }
 
 function Footer(){

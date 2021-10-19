@@ -8,10 +8,20 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   height: 100vh;
-  display: inline;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+Button{
+  align-items: center;
+  margin-left:38%;
+}
+
+.one{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
 }

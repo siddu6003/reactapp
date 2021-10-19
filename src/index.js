@@ -11,21 +11,32 @@ import Header from './Header';
 import Footer from './Footer';
 import Note from './Note';
 import Card from './Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'react-bootstrap';
 
 ReactDOM.render(
   <React.StrictMode>
     <div>
     <Header />
+    <div className="one">
     <Card name="baludu" branch="ECE" special="Deloitee"/>
-    <Card name="macha" branch="CSE" special="Fiserv,Virtusa"/>
+    <Card name="macha" branch="CSE" special="Fiserv,Virtusa"/></div>
+    <div className="one">
     <Card name="labbe" branch="ECE" special="CapGemini"/>
-    <Card name="laagava" branch="ECE" special="CapGemini"/>
+    <Card name="laagava" branch="ECE" special="CapGemini"/></div>
+    <div className="one">
     <Card name="panda" branch="ECE" special="Cognizant"/>
     <Card name="jaya" branch="ECE" special="Cognizant"/>
+    </div>
+    <div className="one">
     <Card name="auto" branch="ECE" special="Cognizant"/>
     <Card name="Gontla" branch="ECE" special="Cognizant"/>
+    </div>
+    <div className="one">
     <Card name="Sharma" branch="ECE" special="TCS"/>
-
+    <Card name="Bussu" branch="ECE" special="Cognizant"/>
+    </div>
+    <Footer />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
