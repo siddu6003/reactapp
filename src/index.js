@@ -12,11 +12,9 @@ import Footer from './Footer';
 import Note from './Note';
 import Card from './Card';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <div>
-      <App />
     <Header />
     <Card name="baludu" branch="ECE" special="Deloitee"/>
     <Card name="macha" branch="CSE" special="Fiserv,Virtusa"/>
